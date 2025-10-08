@@ -1,7 +1,7 @@
 # C++ Lab Works
 
 This repository contains materials and solutions for laboratory work on **C++** programming.
-These materials were taken from documents with laboratory work, which belong to [National Technical University 'Dnipro Polytechnic'](https://nmu.org.ua/).
+These materials were taken from documents with laboratory work, which belong to [Dnipro University of Technology](https://nmu.org.ua/).
 
 ![Screenshot of their logo](https://www.uni-bamberg.de/fileadmin/_processed_/3/0/csm_Logo_angl_goriz_cvet_08cabe7a30.webp)
 ---
