@@ -45,6 +45,11 @@ In C++, looping is implemented using three main operators:
 
 An array is a collection of logically related elements of the same type, stored sequentially in memory under one common name. This allows access to each element using an index.
 
+Types of arrays in C++ include:
+* **One-dimensional arrays**
+* **Character arrays (strings)**
+* **Multidimensional arrays**
+
 ---
 
 ## Lab Work #5: Functions
