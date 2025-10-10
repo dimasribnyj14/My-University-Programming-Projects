@@ -1,4 +1,4 @@
-# C++ Lab Works
+# C++ Lab Tasks
 
 This repository contains materials and solutions for laboratory work on **C++** programming.
 These materials were taken from documents with laboratory work, which belong to [Dnipro University of Technology](https://nmu.org.ua/).
