@@ -45,7 +45,25 @@ In C++, looping is implemented using three main operators:
 
 An array is a collection of logically related elements of the same type, stored sequentially in memory under one common name. This allows access to each element using an index.
 
-Types of arrays in C++ include:
-* **One-dimensional arrays**
-* **Character arrays (strings)**
-* **Multidimensional arrays**
+---
+
+## Lab Work #5: Functions
+
+### Theoretical Foundations
+
+**Function** – a named sequence of statements that performs a specific task.
+It consists of a **prototype** and a **body**.
+
+**Function prototype:** ***`ReturnType FunctionName(ParameterList);`***
+
+**Example of the function:**
+```cpp
+double max(double a, double b);
+void checkValue(int value);
+```
+
+If the function should return a value, it must include a `return` statement with a value.
+However, **void** functions do not return a value and are called as independent statements.
+
+**Recursive functions** are those that call themselves directly or indirectly.
+Recursion simplifies some problems but may increase memory usage.
