@@ -72,3 +72,28 @@ However, **void** functions do not return a value and are called as independent 
 
 **Recursive functions** are those that call themselves directly or indirectly.
 Recursion simplifies some problems but may increase memory usage.
+
+---
+
+## Lab Work #6: Structures
+
+### Theoretical Foundations
+
+**Structure** – a composite object that contains elements of any type except functions. 
+Unlike an array, these **elements** can store data of **different** types.
+
+**Function prototype:** ***`struct [type] { type_1 item_1; type_2 item_2; };`***
+
+**Example of the function:**
+```cpp
+struct student {
+    char fio[30];
+    long int num_zac;
+    double sr_bal;
+};
+```
+
+Access to structure fields is performed using selection operations: `.` when referring to a field via a structure name and `->` when referring via a pointer.
+
+For variables of the same structural type, the assignment operation is available **(element-by-element copying occurs)**. 
+In addition, the structure can be passed to a **function** and returned as its value.
