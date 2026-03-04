@@ -93,7 +93,24 @@ struct student {
 };
 ```
 
+---
+
+## Lab Work #7: Dynamic Memory Allocation
+
+### Theoretical Foundations
+
+**Dynamic memory allocation** – a method of requesting memory from the OS's heap at runtime as needed by the program, rather than using the **limited stack memory**.
 Access to structure fields is performed using selection operations: `.` when referring to a field via a structure name and `->` when referring via a pointer.
 
 For variables of the same structural type, the assignment operation is available **(element-by-element copying occurs)**. 
 In addition, the structure can be passed to a **function** and returned as its value.
+
+**Syntax:** ***`type *pointer = new type;`***
+
+**Example:**
+```cpp
+int *ptr = new int(7); 
+*ptr = 8; 
+delete ptr; 
+ptr = nullptr;
+```
