@@ -140,3 +140,45 @@ public:           // Access modifier
     void print(); // Method
 };
 ```
+
+---
+
+## Lab Work #9: Inheritance in C++
+
+### Theoretical Foundations
+
+**Inheritance** – a relationship between classes representing an *"is-a"* relationship.
+
+**Parent class** – the class being inherited from.
+**Child class** – the class that inherits.
+
+Core Rules:
+* **A child class inherits** both behavior and properties **from the parent class**, subject to access restrictions.
+* These inherited **methods and variables become members of the child class**.
+* Since child classes are complete classes, they **can also have their own unique members**.
+* A class can simultaneously **act as a child and a parent**.
+
+**Example:**
+```cpp
+#include <iostream>
+using namespace std;
+
+// Parent class
+class Person {
+public:
+    void sayHello() {
+        cout << "Hello!" << endl;
+    }
+};
+
+// Child class
+class Student : public Person {
+};
+
+int main() {
+    Student s;
+    s.sayHello(); // inherited method
+
+    return 0;
+}
+```
