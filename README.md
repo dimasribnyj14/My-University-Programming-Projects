@@ -114,3 +114,29 @@ int *ptr = new int(7);
 delete ptr; 
 ptr = nullptr;
 ```
+
+---
+
+## Lab Work #8: OOP
+
+### Theoretical Foundations
+
+**Traditional** – functions operate on **separate data**.
+**OOP** – combines **data and functions** into reusable objects.
+
+**Class** - a custom data type grouping **data and methods**. Functionally identical to `struct`.
+**Object** - an instance of a **class**.
+
+**Access Modifiers**
+`public`: Accessible anywhere.
+`private`: Accessible only within the class.
+`protected`: Accessible only to friend and child classes.
+
+**Example:**
+```cpp
+class DateClass { // Custom type
+public:           // Access modifier
+    int m_day;    // Property/data
+    void print(); // Method
+};
+```
