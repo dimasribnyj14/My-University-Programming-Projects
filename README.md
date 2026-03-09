@@ -128,9 +128,9 @@ ptr = nullptr;
 **Object** - an instance of a **class**.
 
 **Access Modifiers**
-`public`: Accessible anywhere.
-`private`: Accessible only within the class.
-`protected`: Accessible only to friend and child classes.
+* `public`: Accessible anywhere.
+* `private`: Accessible only within the class.
+* `protected`: Accessible only to friend and child classes.
 
 **Example:**
 ```cpp
@@ -152,7 +152,7 @@ public:           // Access modifier
 **Parent class** – the class being inherited from.
 **Child class** – the class that inherits.
 
-Core Rules:
+**Core Rules:**
 * **A child class inherits** both behavior and properties **from the parent class**, subject to access restrictions.
 * These inherited **methods and variables become members of the child class**.
 * Since child classes are complete classes, they **can also have their own unique members**.
