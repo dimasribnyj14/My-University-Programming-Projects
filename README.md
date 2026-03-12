@@ -182,3 +182,41 @@ int main() {
     return 0;
 }
 ```
+
+---
+
+## Lab Work #10: Constructors and Destructor
+
+### Theoretical Foundations
+
+**Constructor** – a special class method automatically called when an **object is created** and it's used to **initialize class data**.
+**Destructor** – a special class method automatically called when an **object is destroyed** and it's used to **free resources or memory**.
+
+**Constructor Rules:**
+* Same name as the class.
+* No return type.
+* Can have parameters.
+
+**Destructor Rules:**
+* Same name as the class with ~.
+* No parameters.
+* No return type.
+* Only one destructor per class.
+
+**Example:**
+```cpp
+class Example {
+public:
+    Example() {        // Default constructor
+        cout << "Object created\n";
+    }
+
+    Example(int x) {   // Constructor with parameter
+        cout << "Object created with value\n";
+    }
+
+    ~Example() {       // Destructor
+        cout << "Object destroyed\n";
+    }
+};
+```
